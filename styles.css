@@ -1,0 +1,190 @@
+/* Css styles project Acorn */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+  body{
+    font-family:'Hammersmith One', sans-serif;
+    color: white;
+  }
+
+  body::before{
+    /*font-family:'Hammersmith One', sans-serif;*/
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+      115deg,
+      rgba(147, 77, 43, 0.8),
+      rgba(209, 140, 82, 0.7)
+    ),
+    url(https://images.pexels.com/photos/1585893/pexels-photo-1585893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  }
+
+  header{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #title{
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  #description{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #survey-form{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  fieldset{
+    margin-bottom: 30px;
+    padding: 20px 30px 50px 30px;
+    border-radius: 16px;
+    border: 0;
+    background: rgba(89, 47, 31, 0.8);
+  }
+
+  .name{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  #name{
+    display: block;
+    width: 93%;
+    height: 80px;
+    color: #495057;
+    font-size: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    font-family:'Hammersmith One', sans-serif;
+  }
+
+  .email{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  #email{
+    display: block;
+    width: 93%;
+    height: 80px;
+    color: #495057;
+    font-size: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    font-family:'Hammersmith One', sans-serif;
+  }
+
+  .number{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  #number{
+    display: block;
+    width: 93%;
+    height: 80px;
+    color: #495057;
+    font-size: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    font-family:'Hammersmith One', sans-serif;
+  }
+
+  .radio{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  #radio-label{
+    font-size: 25px;
+    margin-right: 35px;
+  }
+
+  input[type="radio"]{
+    margin-right: 6px;
+    min-height: 25px;
+    min-width: 25px;
+  }
+
+  .checkbox{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  #checkbox-label{
+    display: block;
+    font-size: 30px;
+    margin-right: 35px;
+  }
+
+  input[type="checkbox"]{
+    margin-right: 6px;
+    min-height: 25px;
+    min-width: 25px;
+  }
+
+  .dropdown-1{
+    font-size: 55px;
+    margin: 30px auto;
+  }
+
+  .dropdown-2{
+    font-size: 50px;
+    margin: 30px auto;
+  }
+
+  #dropdown{
+    display: block;
+    width: 100%;
+    height: 80px;
+    color: #495057;
+    font-size: 30px;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-family:'Hammersmith One', sans-serif;
+
+  }
+
+  .comments{
+    font-size: 40px;
+    margin: 30px auto;
+  }
+  textarea{
+    display: block;
+    width: 96%;
+    height: 112px;
+    color: #495057;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+  }
+
+  #submit{
+    width: 100%;
+    height: 4.5rem;
+    font-size: 24px;
+    border-radius: 8px;
+    margin: 1rem auto;
+    color: white;
+    cursor: pointer;
+    font-style: bold;
+    background: #25b95e;
+    font-family:'Hammersmith One', sans-serif;
+  }
